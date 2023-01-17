@@ -19,13 +19,14 @@ header{
 .container{
     width: 1500px;
     margin:0 auto;
-    
+   
     
 }
 .left{
     color: white;
     width: 750px;
     display: inline-block;
+    padding-left: 0px;
    
 }
 .right{
@@ -37,7 +38,7 @@ header{
 .left li{
    
     list-style-type: none;
-    padding: 35px 20px;
+    padding: 35px 30px;
     display: inline-block;
   
     
@@ -130,8 +131,9 @@ a{
     background-image: url('Images/logo.svg');
     background-repeat: no-repeat;
     padding: 14px 0px;
-    transform: translate(37px, 32px);
+   transform: translateY(32px);
     background-size:contain;
+    padding-left: 0px;
 
 }
 .right-section .list-1 li a {
@@ -185,6 +187,7 @@ a{
     float: left;
    padding: 20px 0;
   
+  
 }
 .navbar2-right
 {
@@ -197,7 +200,11 @@ a{
     color: black;
     display: inline-block;
     padding: 10px;
+    
    
+}
+.nav2-list{
+    padding-left: 0px;
 }
 
 .search-bar{
@@ -205,6 +212,7 @@ a{
     width: 250px;
     border: none;
     opacity: 0.2;
+    transform: translateY(10px);
     
 }
 .search-icon{
@@ -213,7 +221,7 @@ a{
     height: 30px;
     width: 30px;
     float: right;
-    transform: translate(-32px, 23px);
+    transform: translate(-32px, 30px);
     background-color: rgb(154,98,69);
     
     
